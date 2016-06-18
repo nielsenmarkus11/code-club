@@ -57,12 +57,12 @@ class simpleapp_tk(Tkinter.Tk):
         self.entry.selection_range(0, Tkinter.END)
 
     def OnButtonClick(self):
-        self.labelVariable.set( "Answer: " + answers[random.randint(0, len(answers))-1] )
+        self.labelVariable.set( "Answer: " + *****ADD ANSWER HERE***** )
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
 
     def OnPressEnter(self,event):
-        self.labelVariable.set( "Answer: " + answers[random.randint(0, len(answers))-1] )
+        self.labelVariable.set( "Answer: " + *****ADD ANSWER HERE***** )
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
 
